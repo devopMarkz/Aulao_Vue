@@ -4,6 +4,7 @@
   import ComDadosReativos from './components/ComDadosReativosPrimitivos.vue';
   import ComDadosReativosNaoPrimitivos from './components/ComDadosReativosNaoPrimitivos.vue';
   import DataBinding from './components/DataBinding.vue';
+  import ComProps from './components/ComProps.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@
   <ComDadosReativos/>
   <ComDadosReativosNaoPrimitivos/>
   <DataBinding/>
+  <ComProps item="Colher" :preco="2.50"/>
 </template>
 
 <style scoped>
