@@ -5,10 +5,12 @@
   import ComDadosReativosNaoPrimitivos from './components/ComDadosReativosNaoPrimitivos.vue';
   import DataBinding from './components/DataBinding.vue';
   import ComProps from './components/ComProps.vue';
+  import EscutaEvento from './components/EscutaEvento.vue';
 </script>
 
 <template>
   <header>vue</header>
+  <EscutaEvento/>
   <PrimeiroComponente/>
   <ComDados nome="Caneta" codigo="321"/>
   <ComDadosReativos/>
